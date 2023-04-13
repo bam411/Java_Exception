@@ -22,7 +22,7 @@ public class Exercise_1 {
         int max = Math.max(firstArray.length, secondArray.length);
 
         if (min < max) {
-            throw new RuntimeException("Длинны массивов не равны");
+            throw new RuntimeException("Длины массивов не равны");
         }
         for (int i = 0; i < min; i++) {
             result.add(firstArray[i] - secondArray[i]);
